@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "precommit": "lint-staged",
-    "prepush": "npm run lint && ng build --aot && "
+    "prepush": "npm run lint && ng build --aot && rmdir-cli ./dist"
   },
   "private": true,
   "dependencies": {
